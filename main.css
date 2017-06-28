@@ -8,7 +8,7 @@
 }
 
 .results-area {
-
+	padding-bottom: 30px;
 }
 
 button {
@@ -21,7 +21,7 @@ button {
 
 .result-box {
 	width: 90%;
- 	height: 100px;
+ 	min-height: 100px;
  	position: relative;
  	background-color: #b2b2b2;
 	box-shadow: 5px 5px 2px #888888;
@@ -43,4 +43,20 @@ h2, .js-search-results {
 	display: inline-block;
 	margin-left: 20px;
 	padding-top: 25px;
+}
+
+@media only screen and (min-width: 640px) {
+
+  .foo {
+    /* do something to
+    over-ride default settings*/
+  }
+}
+
+@media only screen and (min-width: 800px) {
+
+  .foo {
+    /* do something to
+    over-ride settings at previous threshold settings*/
+  }
 }

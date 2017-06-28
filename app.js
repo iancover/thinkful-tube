@@ -1,5 +1,11 @@
 // *** THINKFUL TUBE CHALLENGE ***
 
+// Stack Overflow endpoint
+//    https://stackoverflow.com/search?q= + searchTerm + :1
+
+// YouTube ChannelId URL
+//    https://www.youtube.com/channel/ + ChannelId
+
 // api key info:
 // name: ThinkfulTube-API-Key
 // parameter:  key=API_KEY
