@@ -16,20 +16,26 @@
     </head>
     
     <body>
-      <main>
-        <h1>Search Videos</h1>
-          <form action="#" class="js-search-form">
-            <label for="query"></label>
-            <input type="text" class="js-query">
-            <button type="submit">Search</button>
-          </form>
-          
-          <h2>Results</h2>
-          <div class="js-search-results">
-            
-          </div>
-      </main>
+    
+    <main>
+	    <aside class="search-area">
+	    	<h1>Search Videos</h1>
+	        <form action="#" class="js-search-form">
+	        	<label for="query"></label>
+	            <input type="text" class="js-searchbox">
+	            <button type="submit">Search</button>
+	        </form>   	
+	    </aside>
+
+	    <section class="results-area">
+	    	  <h2 hidden>Results</h2>
+	          <div class="js-search-results">
+	            
+	          </div>
+	    </section>
+    </main>
 
       <script src="app.js"></script>
+    
     </body>
 </html>
