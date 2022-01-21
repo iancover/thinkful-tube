@@ -1,19 +1,4 @@
-// *** THINKFUL TUBE CHALLENGE ***
 
-// NOTES:
-// Stack Overflow endpoint
-//    https://stackoverflow.com/search?q= + searchTerm + :1
-
-// YouTube ChannelId URL
-//    https://www.youtube.com/channel/ + ChannelId
-
-// api key info:
-// name: ThinkfulTube-API-Key
-// parameter:  key=API_KEY
-// key: AIzaSyBtPKc69l3KmUEHIlxf9dMXZahnAKlgXw4
-
-// video id endpoint: 'https://www.googleapis.com/youtube/v3/watch?v=' or 'https://www.googleapis.com/youtube/v3/videos?id='
-// video id key & string: '&key=AIzaSyBtPKc69l3KmUEHIlxf9dMXZahnAKlgXw4&part=snippet,contentDetails,statistics,status'
 
 var THINKFULTUBE_SEARCH_URL = 'https://www.googleapis.com/youtube/v3/search';
 
@@ -28,7 +13,7 @@ var RESULT_HTML_TEMPLATE = (
 function getDataFromApi(searchTerm, callback) {
   var query = {
     part: 'snippet',
-    key: 'AIzaSyBtPKc69l3KmUEHIlxf9dMXZahnAKlgXw4',
+    key: 'Enter_YouTube_API_Key_here',
     q: searchTerm
   } 
     console.log('getDataFromApi running')
