@@ -1,41 +1,37 @@
-<!-- Thinkful Tube -->
-
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Thinkful Tube</title>
-        <script
-          src="https://code.jquery.com/jquery-3.2.1.min.js"
-          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-          crossorigin="anonymous"> 	
-         </script>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!-- jQuery: script must load before JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <title>ThinkfulTube</title>
+  </head>
 
-        <link href="main.css" rel="stylesheet" type="text/css" />
-    </head>
-    
-    <body>
-    
+  <body>
     <main>
-	    <aside class="search-area">
-	    	<h1>Search Videos</h1>
-	        <form action="#" class="js-search-form">
-	        	<label for="query"></label>
-	            <input type="text" class="js-searchbox">
-	            <button type="submit">Search</button>
-	        </form>   	
-	    </aside>
+      <aside class="search-area">
+        <h1>Search Videos</h1>
+        <form action="#" class="js-search-form">
+          <label for="query"></label>
+          <input type="text" class="js-searchbox" />
+          <button type="submit">Search</button>
+        </form>
+      </aside>
 
-	    <section class="results-area">
-	    	  <h2 hidden>Results</h2>
-	          <div class="js-search-results">
-	            
-	          </div>
-	    </section>
+      <section class="results-area">
+        <h2 hidden>Results</h2>
+        <div class="js-search-results"></div>
+      </section>
     </main>
 
-      <script src="app.js"></script>
-    
-    </body>
+    <!-- JS -->
+    <script src="app.js"></script>
+  </body>
 </html>
