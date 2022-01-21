@@ -1,4 +1,4 @@
-/* Thinkful Tube */
+* CSS */
 
 .search-area {
   padding-top: 30px;
@@ -8,55 +8,41 @@
 }
 
 .results-area {
-	padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 button {
-	background-color: #e7e7e7;
-	color: black;
-	border-radius: 5px;
-	height: 23px;
-	width: 75px;
+  background-color: #e7e7e7;
+  color: black;
+  border-radius: 5px;
+  height: 23px;
+  width: 75px;
 }
 
 .result-box {
-	width: 90%;
- 	min-height: 100px;
- 	position: relative;
- 	background-color: #b2b2b2;
-	box-shadow: 5px 5px 2px #888888;
+  width: 90%;
+  min-height: 100px;
+  position: relative;
+  background-color: #b2b2b2;
+  box-shadow: 5px 5px 2px #888888;
 }
 
-h2, .js-search-results {
-	margin-left: 20px;
+h2,
+.js-search-results {
+  margin-left: 20px;
 }
 
 .js-result-thumbnail {
-	height: 90px;
-	display: inline-block;
-	padding-top: 5px;
-	padding-left: 5px;
+  height: 90px;
+  display: inline-block;
+  padding-top: 5px;
+  padding-left: 5px;
 }
 
 .result-title {
-	position: absolute;
-	display: inline-block;
-	margin-left: 20px;
-	padding-top: 25px;
+  position: absolute;
+  display: inline-block;
+  margin-left: 20px;
+  padding-top: 25px;
 }
 
-@media only screen and (min-width: 640px) {
-
-  .foo {
-    /* do something to
-    over-ride default settings*/
-  }
-}
-
-@media only screen and (min-width: 800px) {
-
-  .foo {
-    /* do something to
-    over-ride settings at previous threshold settings*/
-  }
-}
